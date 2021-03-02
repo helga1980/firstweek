@@ -1,0 +1,70 @@
+body{
+  background-color: rgb(248, 248, 252);}
+
+  
+  .item1 { grid-area: resume; }
+  .item2 { grid-area: pic; }
+  .item3 { grid-area: name; }
+ 
+   
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'pic resume resume resume resume resume resume'
+      'pic name name name name name name'
+      'pic name name name name name name'
+      'pic name name name name name name'
+      'pic name name name name name name';
+      
+    grid-gap: 2px;
+    background-color: #292e33;
+    padding: 3px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(35, 32, 43, 0.904);
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 30px;
+    color:beige;
+  }
+  
+#top {
+    font: 5em sans-serif;
+    background-color: rgb(19, 16, 59);
+    color: rgb(228, 228, 236);
+    border: 2px solid rgb(250, 41, 180);
+    padding: 70px;
+    background-image: no repeat; object-position: 0ch;
+    text-align: center;
+    }
+
+#myname{
+    font: 3em Calibri;
+    background-color: rgb(243, 235, 230);
+    color: rgba(59, 18, 56, 0.945);
+    border: 2px solid rgb(68, 70, 70);
+    padding: 20px; 
+    background-image: no repeat; object-position: 0ch;
+    text-align: center;
+    }
+   
+.info 
+    {
+    Margin-left: 20px;
+    font: 2em Calibri;
+    background-color: rgb(233, 244, 245);
+    color: rgba(11, 9, 119, 0.945);
+    padding: 10px;
+    text-align: left;
+    }
+.explain
+    {
+    margin-left: 30px;
+    font: 1em Calibri;
+    color: rgb(10, 31, 77);
+    padding: 0px;
+    text-align: left;
+    }
+
+  }

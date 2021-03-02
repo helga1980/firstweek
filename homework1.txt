@@ -1,0 +1,25 @@
+How do I create a hidden file or folder? How do I display it in the CLI?
+$ touch .hiddenfile.txt
+
+
+
+___________________________________________________________________________________________________________
+How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+cd c:
+cd users
+cd myusername
+mkdir -p these ./these/folders ./these/folder/sare ./these/folders/are/just ./these/folders/are/just/for ./these/folders/are/just/for/fun
+
+____________________________________________________________________________________________________________
+
+How do I append a message to a file, without a newline character, so the output would be:
+first message
+second message
+
+echo "first message\r\nSecond message" >> filename.txt
+(if we wanna type two lines)
+
+
+echo "\r\nSecond message" >> filename.txt
+(if the first line is already there and the second line should be addded.)
